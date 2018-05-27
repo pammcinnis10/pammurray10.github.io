@@ -1,0 +1,17 @@
+#rsvp-btn {
+  height: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 12px;
+  letter-spacing: 2px;
+  color: #fff;
+  border: 1px solid #c96d6e;
+  border-radius: 0;
+  background: #c96d6e;
+}
+
+#rsvp-btn:hover {
+  color: #c96d6e;
+  border: 1px solid #c96d6e;
+  background: transparent;
+}

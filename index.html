@@ -5,16 +5,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Style 08</title>
+    <title>Pam and Matt's Wedding</title>
     
     <!-- Loading -->
     <script src="assets/js/plugins/pace.min.js"></script>
     
     <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     
     <!-- Main style -->
     <link href="assets/css/style-08.min.css" rel="stylesheet">
+    <link href="assets/css/overrides.css" rel="stylesheet">
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,18 +32,16 @@
       <nav class="fixed-top navbar navbar-expand-lg">
         <div class="container-fluid">
           
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" style="color:white;">
           <span class="navbar-toggler-icon"><i class="ion-android-menu"></i></span>
           </button>
           
           <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#story">Our Story</a></li>
-              <li class="nav-item"><a class="nav-link" href="#wedding">Wedding</a></li>
+              <li class="nav-item"><a class="nav-link" href="#our-wedding">Our Wedding</a></li>
               <li class="nav-item"><a class="nav-link" href="#accomm">Accomm</a></li>
-              <li class="nav-item"><a class="nav-link" href="#registry">Registry</a></li>
-              <li class="nav-item"><a class="nav-link" href="#rsvp">RSVP</a></li>
+              <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
             </ul>
             
           </div>
@@ -57,7 +57,7 @@
             
             
             <h1>Pam&Matt</h1>
-            <h6>July 14, Barrie, ON</h6>
+            <h6 style="margin-top: 4px">July 14, Barrie, ON</h6>
           </div>
           
         </div>
@@ -74,7 +74,7 @@
       
     </div>
     
-    <section id="story" class="story-08">
+    <section id="our-wedding" class="story-08">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-12 title">
@@ -84,14 +84,14 @@
           <div class="col-md-6">
             <div class="boxstory">    
               <p><strong>MacLaren Art Centre</strong><br>37 Mulcaster Street, Barrie<br><br>Please join us for our wedding ceremony at 5pm, followed by cocktails, dinner, and dancing.</p>
-              <a href="https://goo.gl/forms/qcblyemlgWAUMpBE2" class="btn btn-default" target="_blank">RSVP HERE <i class="ion-ios-arrow-right"></i></a> 
+              <a id="rsvp-btn" href="https://goo.gl/forms/qcblyemlgWAUMpBE2" class="btn btn-default" target="_blank">RSVP HERE <i class="ion-ios-arrow-right"></i></a> 
             </div>
           </div>
         </div>
       </div>
     </section>
     
-    <section id="wedding" class="wedding-08">
+    <section id="accomm" class="wedding-08">
       <div class="bg-top">
         <div class="container">
           <div class="row">
@@ -121,13 +121,13 @@
       </div>
     </section>
     
-    <div id="accomm" class="accomm-08">
+    <div id="faq" class="accomm-08">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
             <h3>FAQ</h3>
           </div>
-          <div class="col-md-12">
+          <div class="col-md-8 offset-md-2">
             <p><strong>Is the ceremony indoors or outdoors?</strong></p>
             <p>We will be holding both the ceremony and reception indoors in the gallery's Carnegie Room. Guests may enjoy cocktails in the outdoor courtyard following the ceremony (weather permitting).</p>
             <br>
@@ -139,6 +139,9 @@
             <br>
             <p><strong>Is the venue accessible?</strong></p>
             <p>Yes, the gallery has accessible entrances and an elevator.</p>
+            <br>
+            <p><strong>Will this wedding be the most awesome'ist wedding?</strong></p>
+            <p>Yes. This wedding will be crazy fun.</p>
             <!-- <img src="assets/img/stay1.jpg" alt="" class="img-thumbnail"> -->
             <!-- <h5>Hotel Semar</h5>
             <p>Mention our names when making your reservation to recieve good the group booking discount.</p>
@@ -149,8 +152,14 @@
         </div>
       </div>
     </div>
+
+    <style>
+      .accomm-08 p {
+          padding-left: 0px;
+      }
+    </style>
     
-    <section id="registry" class="registry-08">
+    <section id="see-you-soon" class="registry-08">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -211,7 +220,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            COPYRIGHT &copy; 2017 TEMPLATE SUPER - ALL RIGHTS RESERVED
+            Copyright &copy; 2017 Pamjam and Matt - All rights reserved.
           </div>
         </div>
       </div>
